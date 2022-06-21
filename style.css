@@ -48,6 +48,9 @@ footer {
     flex-grow: 1;
     flex-shrink: 1;
     max-width: calc(100% / 3);
+
+  min-width: calc(100% / 3);
+
 }
 .card {
     display: flex;
