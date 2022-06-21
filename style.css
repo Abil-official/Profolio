@@ -48,9 +48,6 @@ footer {
     flex-grow: 1;
     flex-shrink: 1;
     max-width: calc(100% / 3);
-
-  min-width: calc(100% / 3);
-
 }
 .card {
     display: flex;
@@ -58,4 +55,12 @@ footer {
 }
 .card > div {
     flex: 1 1 auto;
+}
+@media(max-width: 600px){
+    #app > .container-fluid .card {   
+    max-width: 100%;
+}
+   #app > .container-fluid {  
+    padding: 2% 10%;    
+} 
 }
