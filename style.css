@@ -56,11 +56,12 @@ footer {
 .card > div {
     flex: 1 1 auto;
 }
-@media(max-width: 600px){
-    #app > .container-fluid .card {   
-    max-width: 100%;
-}
-   #app > .container-fluid {  
-    padding: 2% 10%;    
-} 
+@media(max-width: 600px) {
+    #app>.container-fluid .card {
+        max-width: 100%;
+    }
+
+    #app>.container-fluid {
+        padding: 2% 10%;
+    }
 }
