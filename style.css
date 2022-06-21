@@ -15,7 +15,7 @@ nav {
     background-color: #95b8d1;
 }
 main > section {
-    height: 85vh;
+    height: auto;
     background-color: #b8e0d2;
 }
 main > article {
