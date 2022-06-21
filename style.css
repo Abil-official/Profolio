@@ -2,7 +2,9 @@ body {
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    height: 100vh;
+   grid-template-areas:"a "
+    "b "
+    "c";
 }
 header {
     text-align: center;
@@ -29,6 +31,7 @@ footer {
     height: 7vh;
     background-color: #809bce;
     text-align: center;
+    grid-area: c;
 }
 .container-fluid {
     max-width: 1444px;
